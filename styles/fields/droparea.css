@@ -10,7 +10,7 @@
   padding: 1.75rem 1rem;
 
   position: relative;
- 
+
   & input {
     position: absolute;
     width: 100%;
@@ -20,21 +20,22 @@
   }
 
 
-& p{
-  color: #A8A29E;
-}
+  & p {
+    color: #A8A29E;
+  }
 
-&:hover, &:has(input:focus) {
-  border-width: 2px;
-  border-color: var(--stroke-highlight);
-  background-color: var(--surface-secondary);
+  &:hover,
+  &:has(input:focus) {
+    border-width: 2px;
+    border-color: var(--stroke-highlightlight);
+    background-color: var(--surface-secondary);
 
-& p {
-  color: var(--text-tertiary);
-}
+    & p {
+      color: var(--text-tertiary);
+    }
 
-& svg path {
-  stroke: var(--stroke-highlight);
-}
-}
+    & svg path {
+      stroke: var(--stroke-highlightlight);
+    }
+  }
 }
